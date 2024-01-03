@@ -1,0 +1,12 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+*.hdr binary
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.8.11/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
+.git/objects/pack/pack-10ec54ef4216e8668b2dc91fb90adcd03f15ffed.pack filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/eb/38/eb38f07dae0fa7742484b8a1509363e7ec41afadf2a57e9a9ac667fc46ede98f filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/a6/d2/a6d2f5e2b283dd014fef3dc0452bcabcc566a9f598ed4e934ee181b331fd15d6 filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/48/05/4805045d8d24ee4b50794d0fc79511e3a6f7e5431b5221e646a3a7e1acb0ad1f filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/4a/48/4a48d8bd009a47c791986eb522b9d28e93971332857cf43181b3aec11f71c740 filter=lfs diff=lfs merge=lfs -text
